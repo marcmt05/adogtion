@@ -1,15 +1,9 @@
-# React client
+<h2>Explicación y Objetivo del proyecto</h2>
 
-This project is bootstraped with [Create React App](https://create-react-app.dev). It is unopinionated with only `web3.js` as an added dependency, so nothing stands in your way.
+Este es mi proyecto para el curso de Blockchain Engineering de Blockchain School for Management.
 
-## Getting started
+Se trata de una plataforma de adopción para perros con trazabilidad e identidad en la blockchain. Esta plataforma se podría usar en perreras, refugios, protectoras, etc. El objetivo es facilitar los procesos burocráticos en la adopción de los animales. Así como el acceso a su identidad y documentos importantes.
 
-Run `npm start` to start the dev server.
+A dia de hoy las protectoras reciben poca o nula ayuda por parte de los ayuntamientos, y gran parte del dinero recaudado es gracias a donaciones, así que he implementado un apartado donde la idea es que se pueda donar tanto dinero tradicional como criptomonedas, en el ultimo caso todo va a un contrato público donde se puede ver con total transparencia todos los movimientos, fondos, etc.
 
-See all [available scripts](https://create-react-app.dev/docs/available-scripts).
-
-## Note on `react-scripts` version
-
-The installed version of `react-scripts` is 4.x instead of the latest 5.x, which uses Webpack 5. This is because Webpack 5 no longer auto-polyfills Node.js core modules, which `web3.js` depends on.
-
-If you don't want to use `react-scripts` at 4.x, alternative solutions include [`eject`](https://create-react-app.dev/docs/available-scripts/#npm-run-eject) and [`react-app-rewired`](https://github.com/timarney/react-app-rewired) (See [instruction](https://github.com/ChainSafe/web3.js#web3-and-create-react-app)).
+Hay apartados que no son funcionales ya que me he centrado en lo que pedía el curso, es decir, los smart contracts y todo lo relacionado con los mismos. Y no hace falta comentar que obviamente no se implementa de forma real, sino que es una simulación.
