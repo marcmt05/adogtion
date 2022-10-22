@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adogtion</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="./donaciones.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+</head>
+<body>
+    <header>
+        <a href="../../index.html" class="logo">
+            <h2 class="titulo">AD</h2><img src="../../../resources/logo_huella.png" alt="logo plataforma"><h2>GTION</h2>
+        </a>
+        <span id="metamask-info"></span>
+        <nav>
+            <a href="../adopta/adopta.html" class="nav-link">Adopta</a>
+            <a href="../donaciones/donaciones.html" class="nav-link">Donaciones</a>
+            <a href="../contacta/contacta.html" class="nav-link">Contacta</a>
+            <span id="wallet-info">
+                <button id="connect-button"><img src="../../../resources/wallet%20logo.png"></button>
+            </span>
+        </nav>
+    </header>
+
+    <main class="donaciones">
+        <h3>DONACIONES</h3><br/>
+
+        <div class="parrafos">
+            Si quieres ayudar al refugio, puedes hacer un donativo para que podamos continuar ayudando a todos 
+            los animales abandonados que viven aquí, el dinero recibido será destinado a la manutención y curas
+            veterinarias de los animales que estan en el refugio y a las casas de acogida. Agradeceremos tu ayuda
+            en nombre de los animales.
+            
+            <ul id="donarCriptos">
+                <li>Los pagos se realizaran mediante criptomonedas, todo sobre la red ERC20,
+                    podrás comprovar el contrato público donde se guardan los fondos para
+                    tener constancia de los movimientos y a que destinamos los donativos recibidos.
+                
+                    <p><b>Dirección pública del contrato inteligente:</b> 0xD3303d8872a5d283DF91418e30db6ad22599B127 (<a id="etherscan" href="https://goerli.etherscan.io/address/0xD3303d8872a5d283DF91418e30db6ad22599B127" target="_blank">Ver en etherscan</a>)</p>
+                    <div class="funcionDonar">
+                        <label for="donation"><b>Donar ethereum: </b></label>
+                        <input type="number" id="donation" name="donation" placeholder="Importe">
+                        <button type="submit" id="donar" name="donar">Enviar</button><span id="mensaje"></span>
+                    </div><br/>
+                    <div>
+                        <span id="cajaBalance"><button id="getBalance">VER FONDOS RECAUDADOS</button></span>
+                    
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>Nos gusta ser transparentes y que el donante tenga constancia en todo momento de 
+                    lo que se hace con su dinero, pero si no quieres hacer el donativo mediante criptomonedas
+                    puedes hacerlo mediante Paypal:
+                    <button id="paypal"><a><img src="http://127.0.0.5/adogtion/frontend/src/paginas/donaciones/paypal.png"></a></button>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <script src="donaciones.js"></script>
+</body>
+</html>

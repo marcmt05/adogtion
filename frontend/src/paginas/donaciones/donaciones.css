@@ -1,0 +1,67 @@
+
+.donaciones .parrafos {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.donaciones .parrafos li {
+    padding-bottom: 2%;
+}
+
+
+#paypal {
+    background: transparent;
+    border: 0;
+    display: flex;
+    margin-left: 42%
+}
+
+#paypal:hover {
+    cursor: pointer;
+}
+
+#mapa {
+    padding-top: 6%;
+}
+
+#etherscan {
+    color: blue;
+    text-decoration:underline;
+}
+
+#etherscan:hover {
+    font-weight: 600;
+}
+
+#donarCriptos {
+    margin-left: 5%;
+}
+
+button {
+    background-color: rgb(152 167 245);
+    border: 2px solid rgb(36, 51, 133);
+    color: black;
+    width: 8em;
+    height: 3em;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+input {
+    border: 2px solid rgb(36, 51, 133);
+    width: auto;
+    color: rgb(36, 51, 133);
+    border-radius: 10px;
+    height: 2em;
+    width: 15%;
+    font-size: 18px;;
+}
+    
+button:hover {
+    cursor: pointer;
+}

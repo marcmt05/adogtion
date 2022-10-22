@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adogtion</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    
+</head>
+<body onload=traerDatos()>
+    <header>
+        <a href="index.html" class="logo">
+            <h2 class="titulo">AD</h2><img src="../resources/logo_huella.png" alt="logo plataforma"><h2>GTION</h2>
+        </a>
+        <span id="metamask-info"></span>
+        <nav>
+            <a href="../src/paginas/adopta/adopta.html" class="nav-link">Adopta</a>
+            <a href="../src/paginas/donaciones/donaciones.html" class="nav-link">Donaciones</a>
+            <a href="../src/paginas/contacta/contacta.html" class="nav-link">Contacta</a>
+            <span id="wallet-info">
+                <button id="connect-button"><img src="../resources/wallet%20logo.png"></button>
+            </span>
+        </nav>
+    </header>
+
+    <main>
+        <h3 id="titulo">ANIMALES EN NUESTRO REFUGIO</h3>
+            <div class="cajas" id="cajas"></div>
+        <script src="app.js"></script>
+        
+    </main>
+</body>
+</html>

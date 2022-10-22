@@ -1,0 +1,203 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*
+ESTILOS CABECERA
+*/
+header {
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(36, 51, 133);
+}
+
+header h2 {
+    color: white;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+    
+}
+
+nav a, #metamask-info{
+    font-weight: 600;
+    padding-right: 20px;
+    color: white;
+    height: 30px;
+    padding: 10px;
+    
+   
+}
+
+nav a:hover{
+    color: rgb(245, 248, 255);
+    font-size: 20px;
+    border: 3px solid rgb(245, 248, 255);
+    cursor: pointer;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+
+#wallet-info {
+    padding-bottom: 10px;
+    width: 200px;
+    text-align: right;
+}
+
+#connect-button {
+    width: 70%;
+    background-color: transparent;
+    border: 0;
+    margin-left: 10%;
+
+    
+}
+
+#metamask-info {
+    padding-right: 14%;
+    padding-left: 18%;
+    padding-top: 1.8%;
+}
+
+#metamask-info a:hover {
+    color: rgb(245, 248, 255);
+    font-size: 20px;
+    border: 3px solid rgb(245, 248, 255);
+    cursor: pointer;
+}
+
+
+#connect-button img {
+    width: 60%;
+}
+
+#connect-button img:hover {
+    cursor: pointer;
+    
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    nav {
+        padding: 10px 0px;
+        align-items: center;
+    }
+ 
+}
+
+/*
+ESTILOS MAIN
+*/
+
+
+.cajas {
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    width: 65%;
+    padding-top: 2em;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+
+.cajas h4{
+    color: white;
+    margin-top: -32px;
+    font-size: 18px;
+    background-color: rgb(36, 51, 133);
+    width: 253px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+
+}
+
+.cajaIMG {
+    margin: 10px auto;
+    height: 246px;  
+    width: 250px;
+    padding-bottom: 7%;
+}
+
+.cajaIMG:hover {
+    box-shadow: 6px 6px 6px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    height: 205px;
+    width: 253px;
+}
+
+.cajas a:not(#etherscan){
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.imagenes {
+    margin: 2em;
+    width: 247px;
+    height: 245px;
+    margin: auto;
+    margin-bottom: 12%;
+    border: 3px solid rgb(36, 51, 133);
+}
+
+h3:not(#info h3,#cuenta-info) {
+    text-align: center;
+    width: 35%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3%;
+    font-size: 30px;
+    color: rgb(36, 51, 133);
+    border: 3px solid rgb(36, 51, 133);
+    padding: 20px;
+ 
+
+}
+
+#titulo {
+    padding-top: 5%;
+}
+
+#subirFicha {
+    padding-left: 6%;
+    padding-top: 3%;
+}
+
+#subir {
+    font-weight: bold;
+
+}

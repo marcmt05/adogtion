@@ -1,0 +1,13 @@
+.parrafos {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
+    line-height: 25px;
+    display: inline;
+    float: left;
+    padding-bottom: 2%;
+}
+
+#ultimoParrafo {
+    padding-bottom: 10%;
+}

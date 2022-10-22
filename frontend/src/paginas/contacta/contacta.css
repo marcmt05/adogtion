@@ -1,0 +1,31 @@
+.parrafos {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 15%;
+}
+
+.parrafos1, .horario {
+    width: 15%;
+    height: 24em;
+    margin-right: 15%;
+    color: white;
+    float:right;
+    display: inline;
+    padding-right: 2%;
+    text-align: left;
+    line-height: 35px;
+    
+}
+
+.horario {
+    background-color:rgb(81 117 178);
+    border: 3px solid rgb(36, 51, 133);
+    padding-left: 2%;
+    margin-top: -6em;
+}
+
+#mapa {
+    border: 3px solid rgb(36, 51, 133);
+    width: 600px !important; 
+    height: 450px !important;
+}
