@@ -150,13 +150,4 @@ donar.addEventListener("click", async() => {
 	contract.methods.donar().send({from: accounts[0], value: _cantidadDonacion})
 	.then()
 	}
-
-	
 });
-
-/*getBalance.addEventListener("click", async () => {
-	let contractAddress = "0x315407C084e00F3c59d310f90b3C205D7bb69F4C";
-	const getBalance = await web3.eth.getBalance(contractAddress);
-	let ethBalance = web3.utils.fromWei(getBalance, 'ether');
-	cajaBalance.innerHTML += "<b>Estos son los fondos que hay actualmente en el contrato: " + ethBalance + " ETH</b>";
-});*/
