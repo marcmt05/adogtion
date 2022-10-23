@@ -73,7 +73,7 @@ metamaskButton.addEventListener("click", async() => {
                     <a href="http://127.0.0.5/adogtion/frontend/src/paginas/adopcion/adopcion.html"><button id="botonAdoptar">Adoptar ahora</button></a>
                 </div>
                 <div id="galeria">
-                    <img src="https://ipfs.io/ipfs/QmRmhTqig6daD7ZmdxPJJpFuZkFgM5HvrxBMJ13Dxcdo1z">
+                    <img src="${urlIMG+item.nombre +"/" + item.nombre + "1.png"}">
                     <img src="${urlIMG+item.nombre +"/" + item.nombre + "2.png"}">
                     <img src="${urlIMG+item.nombre +"/" + item.nombre + "3.png"}">
                     <img src="${urlIMG+item.nombre +"/" + item.nombre + "4.png"}">
