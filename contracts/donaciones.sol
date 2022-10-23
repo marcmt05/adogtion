@@ -6,11 +6,6 @@ contract Donaciones {
     address public ultimoDonante;
     address[] private donantes;
 
-    modifier onlyOwner() {
-    require(msg.sender == owner);
-    _;
-}
-
     constructor() {
         owner = msg.sender;
     }
