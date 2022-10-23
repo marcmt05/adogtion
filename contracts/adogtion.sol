@@ -52,9 +52,9 @@ contract AdogtionNFT is ERC721 {
     }
 
     function getAdopters(uint _index) public view returns (address) {
-        Adopters storage newAdopter = adopters[_index-1];
+        Adopters storage newAdopter = adopters[_index];
         return (newAdopter.adoptersAddress);
-        
+         
     }
 
     function directorio(uint256 _idPerro) view public returns (string memory directorioBase) {
