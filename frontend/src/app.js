@@ -53,7 +53,7 @@ async function traerDatos() {
         cajas.innerHTML += `
             <div class="cajaIMG"> 
                 <a href="./paginas/perros/${item.nombre}/${item.nombre}.html">
-                    <img class="imagenes" src="${item.imagen}">
+                    <img class="imagenes" src="https://${item.imagen}">
                     <h4>${item.nombre}, ${item.edad}</h4>
                 </a>
             </div>
